@@ -2,73 +2,63 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#050812">
-<title>Impulso Social | Loja de serviços para redes sociais</title>
+<meta name="theme-color" content="#050814">
+<title>Impulso Social | Loja</title>
 <style>
-:root{--bg:#050812;--panel:#0c1222;--line:#24344d;--blue:#05c8ff;--pink:#f0007b;--text:#f4f8ff;--muted:#aebbd0}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#171344 0,transparent 40%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-a{color:inherit}.wrap{max-width:1120px;margin:auto;padding:0 18px}.top{padding:18px 0;border-bottom:1px solid #1a2740;background:#050812dd;position:sticky;top:0;z-index:4;backdrop-filter:blur(12px)}.nav{display:flex;align-items:center;justify-content:space-between;gap:14px}.brand{font-weight:950;letter-spacing:.5px;font-size:1.25rem}.brand span{color:var(--blue)}.pill{border:1px solid #28405d;border-radius:999px;padding:9px 14px;color:#d8e8fa;text-decoration:none;font-size:.92rem}
-.hero{padding:28px 0 16px}.banner{width:100%;display:block;max-height:390px;object-fit:cover;border:1px solid #1e3b5b;border-radius:20px;box-shadow:0 0 35px #00bfff18}.intro{text-align:center;padding:26px 0 12px}.intro h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.02;margin:0 0 12px;font-weight:1000}.glow{color:var(--blue);text-shadow:0 0 25px #00c8ff55}.intro p{color:var(--muted);max-width:680px;margin:0 auto 20px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:12px;background:linear-gradient(110deg,#00d66b,#00a84f);color:white;font-weight:900;text-decoration:none;padding:13px 18px;cursor:pointer}.section-title{font-size:1.55rem;margin:28px 0 6px}.hint{color:var(--muted);margin:0 0 18px;font-size:.95rem}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.card{background:linear-gradient(160deg,#101a2c,#080d18);border:1px solid var(--line);border-radius:17px;padding:17px;min-width:0;box-shadow:0 10px 30px #0002}.card h3{margin:0 0 4px;font-size:1.02rem}.platform{color:var(--muted);font-size:.88rem}.price{font-size:1.45rem;font-weight:950;color:#fff;margin:12px 0 2px}.unit{color:#94a7c1;font-size:.82rem}.order{margin-top:13px;width:100%;background:linear-gradient(110deg,#086cff,#00bff4);border:0;border-radius:10px;color:white;padding:11px;font-weight:850;cursor:pointer}.emoji{font-size:1.6rem;margin-bottom:8px}.extra{display:grid;grid-template-columns:1fr 1fr;gap:14px}.extra .card{padding:20px}.formbox{margin:28px 0;background:#0a1120;border:1px solid #263b58;border-radius:18px;padding:20px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:12px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}label{font-size:.9rem;color:#d7e5f7}input,select,textarea{background:#060b15;border:1px solid #31435b;color:white;border-radius:10px;padding:12px;font:inherit;width:100%}textarea{min-height:90px;resize:vertical}.total{font-size:1.2rem;font-weight:900;margin:14px 0}.note{color:#91a3bd;font-size:.82rem;line-height:1.5}.trust{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:20px 0}.trust div{padding:14px;border:1px solid var(--line);border-radius:13px;background:#0a1120}.footer{padding:30px 0 45px;color:#8798b1;text-align:center;border-top:1px solid #1b2a40;margin-top:30px}.toast{display:none;margin-top:12px;padding:12px;border:1px solid #246c50;background:#09291f;border-radius:10px;color:#d8ffeb}
-@media(max-width:760px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.extra{grid-template-columns:1fr}.trust{grid-template-columns:1fr}.nav .pill{font-size:.8rem}.card{padding:13px}.price{font-size:1.25rem}}
-@media(max-width:430px){.grid{grid-template-columns:1fr 1fr;gap:9px}.card h3{font-size:.9rem}.platform{font-size:.78rem}.price{font-size:1.12rem}.order{font-size:.82rem;padding:10px}.wrap{padding:0 12px}.fields{grid-template-columns:1fr}}
+:root{--bg:#050814;--panel:#10172a;--line:#27334e;--blue:#08c7ff;--pink:#ff1474;--text:#f5f8ff;--muted:#aab6ce;--green:#16c784}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top right,#14245b 0,#050814 40%);color:var(--text);font:16px system-ui,Arial,sans-serif}
+header{padding:28px 16px 20px;text-align:center;border-bottom:1px solid var(--line)}header h1{margin:0;font-size:clamp(28px,7vw,48px);letter-spacing:-1px}header h1 span{color:var(--blue)}header p{color:var(--muted);margin:10px auto;max-width:720px}
+.wrap{max-width:1100px;margin:auto;padding:20px 14px 60px}.notice{background:#101b31;border:1px solid #29446a;border-radius:14px;padding:14px;color:#dbeaff;margin-bottom:20px}
+h2{font-size:24px;margin:24px 0 12px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.card,.checkout{background:linear-gradient(160deg,#111a30,#090e1d);border:1px solid var(--line);border-radius:16px;padding:16px}.card h3{margin:4px 0 6px;font-size:18px}.platform{font-size:13px;color:var(--blue);text-transform:uppercase;letter-spacing:.8px}.price{font-size:24px;font-weight:800;margin:12px 0}.price small{font-size:12px;color:var(--muted);font-weight:500}.desc{color:var(--muted);font-size:14px;min-height:38px}
+label{display:block;font-size:14px;color:#d8e1f3;margin:12px 0 6px}input,select{width:100%;background:#070c19;border:1px solid #34425f;border-radius:10px;color:white;padding:12px;font:inherit}button,.btn{border:0;border-radius:11px;padding:12px 14px;font-weight:750;font-size:15px;cursor:pointer;text-decoration:none;display:inline-block;text-align:center}.add{width:100%;background:linear-gradient(90deg,var(--blue),#4777ff);color:#001020}.primary{background:var(--green);color:#042316;width:100%}.whatsapp{background:#1cae63;color:#fff;width:100%;margin-top:10px}.secondary{background:#1a2540;color:#fff}
+.checkout{margin-top:24px}.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}.cartline{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}.cartline small{display:block;color:var(--muted)}.remove{background:#321725;color:#ffc6d7;padding:6px 10px}.total{font-size:25px;font-weight:850;text-align:right;margin:18px 0}.tiny{font-size:12px;color:var(--muted);line-height:1.5}.status{margin-top:12px;color:#ffd98a;font-size:14px}
+footer{text-align:center;color:var(--muted);padding:24px;border-top:1px solid var(--line)}
+@media(max-width:520px){.row{grid-template-columns:1fr}.card{padding:14px}}
 </style>
 </head>
 <body>
-<header class="top"><div class="wrap nav"><div class="brand">⚡ IMPULSO <span>SOCIAL</span></div><a class="pill" href="#catalogo">Ver serviços e preços ↓</a></div></header>
+<header><h1>IMPULSO <span>SOCIAL</span></h1><p>Sua presença online vale mais. Escolha um serviço, informe quantos pacotes de 1.000 deseja e envie seu pedido.</p></header>
 <main class="wrap">
-<section class="hero">
-<img class="banner" src="assets/banner.png" alt="Impulso Social — serviços para redes sociais" onerror="this.style.display='none'">
-<div class="intro"><h1>SUA PRESENÇA ONLINE<br><span class="glow">VALE MAIS!</span></h1><p>Confira o catálogo, escolha a plataforma e a quantidade, e envie sua solicitação. Os valores abaixo são os preços informados para esta loja.</p><a class="btn" href="#pedido">🛒 Fazer pedido</a></div>
+<div class="notice"><strong>Compra segura:</strong> não pedimos sua senha de redes sociais. Os preços abaixo são por pacote de 1.000 ações (1.000 seguidores, curtidas, visualizações etc.) e precisam ser confirmados antes da compra. Serviços de terceiros podem estar sujeitos às regras de cada plataforma.</div>
+<h2>Serviços e preços</h2>
+<div id="catalog" class="grid"></div>
+<section class="checkout" id="pedido">
+<h2>Seu pedido</h2><div id="cart"><p class="tiny">Seu carrinho está vazio. Escolha um serviço acima.</p></div>
+<div class="total">Total: <span id="total">R$ 0,00</span></div>
+<h2>Dados para o pedido</h2>
+<div class="row"><div><label for="nome">Seu nome</label><input id="nome" autocomplete="name" placeholder="Nome completo"></div><div><label for="contato">Seu @ ou link do perfil</label><input id="contato" placeholder="@usuario ou URL"></div></div>
+<label for="obs">Observações (opcional)</label><input id="obs" placeholder="Detalhes do pedido">
+<button class="primary" id="pay">Pagar online</button>
+<p class="tiny">O pagamento online só será ativado depois de configurar as credenciais do provedor no Cloudflare. Não informe dados de cartão neste site. O checkout seguro será aberto no provedor de pagamento.</p>
+<button class="whatsapp" id="wa">Enviar pedido pelo WhatsApp</button>
+<div class="status" id="status" role="status"></div>
 </section>
-<section id="catalogo">
-<h2 class="section-title">🔥 Serviços e preços</h2><p class="hint">Selecione um serviço para preencher o formulário de pedido.</p>
-<div class="grid" id="products"></div>
-</section>
-<section>
-<h2 class="section-title">➕ Outros serviços</h2><p class="hint">Consulte disponibilidade e orçamento pelo formulário.</p>
-<div class="extra"><div class="card"><h3>💬 Interações e alcance</h3><p class="hint">Comentários, compartilhamentos e salvamentos.</p><button class="order" onclick="chooseCustom('Comentários / compartilhamentos / salvamentos')">Consultar serviço</button></div><div class="card"><h3>🎯 Pacotes personalizados</h3><p class="hint">Pacotes sob consulta, conforme plataforma e objetivo.</p><button class="order" onclick="chooseCustom('Pacote personalizado')">Pedir orçamento</button></div></div>
-</section>
-<section class="trust"><div>⚡ <b>Pedido simples</b><br><span class="note">Escolha o serviço e informe os detalhes.</span></div><div>🔐 <b>Não informe sua senha</b><br><span class="note">Nunca solicitamos a senha das suas redes.</span></div><div>💬 <b>Atendimento</b><br><span class="note">Confirme disponibilidade e prazo antes de pagar.</span></div></section>
-<section class="formbox" id="pedido"><h2 class="section-title" style="margin-top:0">🛍️ Finalizar solicitação</h2><p class="hint">Preencha os dados e gere uma mensagem para enviar ao atendimento.</p>
-<form id="orderForm"><div class="fields">
-<div class="field"><label for="name">Seu nome</label><input id="name" required placeholder="Como podemos te chamar?"></div>
-<div class="field"><label for="platform">Plataforma</label><select id="platform"><option>Instagram</option><option>TikTok</option><option>YouTube</option><option>Facebook</option><option>Kwai</option><option>X (Twitter)</option><option>Outro / consulta</option></select></div>
-<div class="field full"><label for="service">Serviço</label><select id="service" required></select></div>
-<div class="field"><label for="quantity">Quantidade (unidades)</label><input id="quantity" type="number" min="1" step="1" value="100" required></div>
-<div class="field"><label for="profile">Link do perfil ou publicação</label><input id="profile" type="url" placeholder="https://..." required></div>
-<div class="field full"><label for="details">Observações (opcional)</label><textarea id="details" placeholder="Informe detalhes importantes. Não inclua senhas."></textarea></div>
-</div><div class="total">Estimativa: <span id="total">R$ 100,00</span></div><p class="note">A estimativa é calculada com base no preço unitário. Para serviços sob consulta, o valor final precisa ser confirmado pelo atendimento. O formulário não cobra pagamentos nem envia o pedido automaticamente a um servidor.</p><button class="btn" type="submit">Gerar pedido para WhatsApp</button><div id="toast" class="toast"></div></form>
-</section>
-</main>
-<footer class="footer"><div class="wrap"><b>IMPULSO SOCIAL</b><p>Catálogo de serviços para redes sociais.</p><span class="note">Use serviços em conformidade com as regras de cada plataforma. Resultados não são garantidos; confirme condições, prazos e políticas antes da compra.</span></div></footer>
+</main><footer>Impulso Social · Atendimento pelo WhatsApp · Nunca compartilhe sua senha.</footer>
 <script>
-const items = [
-{name:'Seguidores',platform:'Instagram',price:1.00,unit:'cada',emoji:'📸'},
-{name:'Curtidas',platform:'Instagram',price:.20,unit:'cada',emoji:'❤️'},
-{name:'Visualizações',platform:'Instagram (Reels e Stories)',price:.10,unit:'cada',emoji:'👁️'},
-{name:'Seguidores',platform:'TikTok',price:1.50,unit:'cada',emoji:'🎵'},
-{name:'Curtidas',platform:'TikTok',price:.25,unit:'cada',emoji:'❤️'},
-{name:'Visualizações',platform:'TikTok',price:.08,unit:'cada',emoji:'👁️'},
-{name:'Inscritos',platform:'YouTube',price:2.00,unit:'cada',emoji:'▶️'},
-{name:'Visualizações',platform:'YouTube',price:.10,unit:'cada',emoji:'▶️'},
-{name:'Curtidas',platform:'Facebook',price:.20,unit:'cada',emoji:'👍'},
-{name:'Seguidores',platform:'Kwai',price:1.20,unit:'cada',emoji:'🟠'},
-{name:'Visualizações',platform:'Kwai',price:.08,unit:'cada',emoji:'👁️'},
-{name:'Seguidores',platform:'X (Twitter)',price:1.50,unit:'cada',emoji:'𝕏'}
+const products = [
+{id:'ig-follow',platform:'Instagram',name:'Seguidores',price:1.00,unit:'por 1.000',note:'Serviço de terceiros; não há garantia de permanência.'},
+{id:'ig-like',platform:'Instagram',name:'Curtidas',price:.20,unit:'por 1.000',note:'Confira a quantidade antes de solicitar.'},
+{id:'ig-views',platform:'Instagram',name:'Visualizações (Reels e Stories)',price:.10,unit:'por 1.000',note:'Disponibilidade pode variar por tipo de publicação.'},
+{id:'tt-follow',platform:'TikTok',name:'Seguidores',price:1.50,unit:'por 1.000',note:'Serviço sujeito às regras da plataforma.'},
+{id:'tt-like',platform:'TikTok',name:'Curtidas',price:.25,unit:'por 1.000',note:'Confira a quantidade antes de solicitar.'},
+{id:'tt-views',platform:'TikTok',name:'Visualizações',price:.08,unit:'por 1.000',note:'Resultados não são garantidos.'},
+{id:'yt-subs',platform:'YouTube',name:'Inscritos',price:2.00,unit:'por 1.000',note:'Inscritos artificiais podem violar as políticas do YouTube.'},
+{id:'yt-views',platform:'YouTube',name:'Visualizações',price:.10,unit:'por 1.000',note:'Use apenas métodos compatíveis com as políticas da plataforma.'},
+{id:'fb-like',platform:'Facebook',name:'Curtidas',price:.20,unit:'por 1.000',note:'Disponibilidade depende do tipo de página/publicação.'},
+{id:'kw-follow',platform:'Kwai',name:'Seguidores',price:1.20,unit:'por 1.000',note:'Confira as regras atuais da plataforma.'},
+{id:'kw-views',platform:'Kwai',name:'Visualizações',price:.08,unit:'por 1.000',note:'Resultados não são garantidos.'},
+{id:'x-follow',platform:'X (Twitter)',name:'Seguidores',price:1.50,unit:'por 1.000',note:'Serviço sujeito às regras da plataforma.'},
+{id:'comments',platform:'Outros serviços',name:'Comentários',price:.30,unit:'por 1.000',note:'Preço ilustrativo; confirme antes de vender.'},
+{id:'shares',platform:'Outros serviços',name:'Compartilhamentos',price:.20,unit:'por 1.000',note:'Preço ilustrativo; confirme antes de vender.'},
+{id:'saves',platform:'Outros serviços',name:'Salvamentos',price:.20,unit:'por 1.000',note:'Preço ilustrativo; confirme antes de vender.'}
 ];
-const money = n => n.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
-const products=document.getElementById('products'), service=document.getElementById('service');
-items.forEach((p,i)=>{
- const card=document.createElement('article'); card.className='card';
- card.innerHTML=`<div class="emoji">${p.emoji}</div><h3>${p.name}</h3><div class="platform">${p.platform}</div><div class="price">${money(p.price)}</div><div class="unit">por unidade</div><button class="order" type="button" data-index="${i}">Escolher serviço</button>`;
- products.appendChild(card);
- const op=document.createElement('option');op.value=String(i);op.textContent=`${p.platform} — ${p.name} (${money(p.price)} / unidade)`;service.appendChild(op);
-});
-function updateTotal(){const i=Number(service.value),q=Math.max(0,Number(document.getElementById('quantity').value)||0);document.getElementById('total').textContent=money(items[i].price*q)}
-function chooseCustom(label){service.value='custom';if(![...service.options].some(o=>o.value==='custom')){const o=document.createElement('option');o.value='custom';o.textContent=label+' — sob consulta';service.appendChild(o)}service.value='custom';document.getElementById('total').textContent='Sob consulta';document.getElementById('pedido').scrollIntoView({behavior:'smooth'})}
-products.addEventListener('click',e=>{const b=e.target.closest('button[data-index]');if(!b)return;service.value=b.dataset.index;document.getElementById('platform').value=items[Number(b.dataset.index)].platform.split(' (')[0];updateTotal();document.getElementById('pedido').scrollIntoView({behavior:'smooth'})});
-service.addEventListener('change',updateTotal);document.getElementById('quantity').addEventListener('input',updateTotal);
-document.getElementById('orderForm').addEventListener('submit',e=>{e.preventDefault();const i=service.value==='custom'?'custom':Number(service.value),p=i==='custom'?null:items[i],q=Number(document.getElementById('quantity').value)||0;const total=p?money(p.price*q):'Sob consulta';const msg=`Olá! Quero fazer um pedido na Impulso Social.%0A%0ANome: ${encodeURIComponent(document.getElementById('name').value)}%0APlataforma: ${encodeURIComponent(document.getElementById('platform').value)}%0AServiço: ${encodeURIComponent(p?`${p.name} — ${p.platform}`:'Serviço personalizado / sob consulta')}%0AQuantidade: ${q}%0ALink: ${encodeURIComponent(document.getElementById('profile').value)}%0AEstimativa: ${encodeURIComponent(total)}%0AObservações: ${encodeURIComponent(document.getElementById('details').value)}`;const toast=document.getElementById('toast');toast.style.display='block';toast.innerHTML='Abrindo o WhatsApp para você enviar seu pedido. Confira a mensagem e toque em Enviar.';const waNumber='5562992453459';if(waNumber){window.open(`https://wa.me/${waNumber}?text=${msg}`,'_blank','noopener')}else{const blob=new Blob([decodeURIComponent(msg.replace(/%0A/g,'\n'))],{type:'text/plain;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='pedido-impulso-social.txt';a.click();URL.revokeObjectURL(a.href)}});
-updateTotal();
-</script>
-</body></html>
+const cart=[];
+const money=n=>n.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
+const catalog=document.getElementById('catalog');
+products.forEach(p=>{const el=document.createElement('article');el.className='card';el.innerHTML=`<div class="platform">${p.platform}</div><h3>${p.name}</h3><div class="desc">${p.note}</div><div class="price">${money(p.price)} <small>/${p.unit}</small></div><label>Pacotes de 1.000</label><input type="number" min="1" max="1000" value="1" id="q-${p.id}"><button class="add" type="button">Adicionar ao pedido</button>`;el.querySelector('button').onclick=()=>{const q=Number(el.querySelector('input').value);if(!Number.isInteger(q)||q<1||q>1000){alert('Informe de 1 a 1.000 pacotes de 1.000.');return}const existing=cart.find(x=>x.id===p.id);if(existing)existing.qty+=q;else cart.push({...p,qty:q});renderCart()};catalog.appendChild(el)});
+function renderCart(){const c=document.getElementById('cart');c.innerHTML='';if(!cart.length){c.innerHTML='<p class="tiny">Seu carrinho está vazio. Escolha um serviço acima.</p>'}cart.forEach((x,i)=>{const line=document.createElement('div');line.className='cartline';line.innerHTML=`<div><strong>${x.name} — ${x.platform}</strong><small>${x.qty} pacote(s) de 1.000 × ${money(x.price)} = ${money(x.qty*x.price)}</small></div><button class="remove">Remover</button>`;line.querySelector('button').onclick=()=>{cart.splice(i,1);renderCart()};c.appendChild(line)});document.getElementById('total').textContent=money(cart.reduce((s,x)=>s+x.qty*x.price,0))}
+function orderData(){return {name:document.getElementById('nome').value.trim(),profile:document.getElementById('contato').value.trim(),obs:document.getElementById('obs').value.trim(),items:cart.map(x=>({id:x.id,name:x.name,platform:x.platform,qty:x.qty,unitPrice:x.price,subtotal:x.qty*x.price})),total:cart.reduce((s,x)=>s+x.qty*x.price,0)}}
+document.getElementById('wa').onclick=()=>{const o=orderData();if(!o.items.length){alert('Adicione pelo menos um serviço.');return}if(!o.name||!o.profile){alert('Preencha seu nome e seu @ ou link do perfil.');return}const msg=['Olá! Quero fazer um pedido na Impulso Social.','',`Nome: ${o.name}`,`Perfil: ${o.profile}`, ...o.items.map(x=>`- ${x.platform} / ${x.name}: ${x.qty} pacote(s) de 1.000 x ${money(x.unitPrice)} = ${money(x.subtotal)}`),`Total estimado: ${money(o.total)}`,`Observações: ${o.obs||'Nenhuma'}`,'','Gostaria de confirmar disponibilidade e forma de pagamento.'].join('\\n');location.href='https://wa.me/5562992453459?text='+encodeURIComponent(msg)};
+document.getElementById('pay').onclick=async()=>{const o=orderData();const status=document.getElementById('status');if(!o.items.length){alert('Adicione pelo menos um serviço.');return}if(!o.name||!o.profile){alert('Preencha seu nome e seu @ ou link do perfil.');return}status.textContent='Verificando configuração do pagamento…';try{const r=await fetch('/api/create-checkout',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(o)});const data=await r.json();if(!r.ok)throw new Error(data.error||'Não foi possível iniciar o pagamento.');if(!data.checkout_url)throw new Error('O provedor não retornou um link de checkout.');location.href=data.checkout_url}catch(e){status.textContent=e.message==='Failed to fetch'?'Pagamento ainda não configurado. Use o WhatsApp enquanto as credenciais do provedor são configuradas.':e.message;}}
+renderCart();
+</script></body></html>
